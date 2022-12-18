@@ -1,0 +1,16 @@
+{
+  "name": "custom-queue-dsa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./index.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "npm run tsc && node ./dist/index.js",
+    "test": "npm run tsc && jest ./dist/*.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.2.4"
+  }
+}

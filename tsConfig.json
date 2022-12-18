@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "CommonJS",
+    "lib": ["es7", "es2017", "es2018", "es2019", "es2020", "esnext"],
+    "target": "es6",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": false
+  },
+  "include": ["./*.ts", "./*.test.ts", "package.json"],
+  "exclude": ["node_modules, dist"]
+}
